@@ -1,0 +1,56 @@
+.person{
+	height: 50px;
+	width: 50px;
+	background-color: grey;
+	border: 5px solid #000;
+	margin: 5px;
+	display: inline-block;
+	text-indent: 26px;
+	border-radius: 9999px;
+	font-size: xx-large;
+	padding: 2px;
+	color: white;
+}
+
+.holder{
+	border: 5px solid #000;
+	display: inline-block;
+	margin: 10px;
+	width: 40%;
+	min-height: 200px;
+
+}
+
+#one{
+	border: 5px solid red;
+	display: inline-block;
+	margin: 10px;
+	width: 40%;
+	min-height: 200px;
+}
+
+
+.nameItems{
+	text-align: center;
+	height: 30px;
+	width: 70px;
+	background-color: yellow;
+	margin: 3px;
+	padding: 2px;
+	border: 1px solid black;
+}
+
+
+.names{
+	margin: 0px;
+
+}
+
+.title{
+	margin: 2px;
+	font-size: 20px;
+}
+.selected{
+	border: 2px solid red;
+}
+

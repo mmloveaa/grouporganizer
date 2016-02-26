@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Group Organizer</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+	<script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<div class="container">	
+
+		<div>	
+			<h1>Group Organizer</h1>
+			<br />
+
+			<div>
+				<input id='person' type='text'>
+				<button class="btn btn-info" id="addName">Add Name</button>
+			</div>
+
+			<br/>
+
+		</div>	
+
+		<br />
+		<br />
+
+		<div id='outerHolder'>
+
+				<div class="holder col-md-6 col-md-4" id="one">
+					<div class="title" id="unsort">Unsorted Group</div>
+					<div class="items"></div>
+				</div>	
+
+
+				<div class="holder col-md-6 col-md-4" id="two">
+					<div class="title" id="name">Names</div>
+					<div class="items"></div>
+				</div>	
+
+				<div class="holder col-md-6 col-md-4" id="three">
+					<div class="title" id="thingstobuy">Things to Buy</div>
+					<div class="items"></div>
+				</div>	
+
+				<div class="holder col-md-6 col-md-4" id="four">
+					<div class="title" id="total">Things to Sell</div>
+					<div class="items"></div>
+				</div>	
+		</div>	
+
+	</div>
+
+	<script src="main2.js"></script>
+</body>
+</html>
+
+
+
